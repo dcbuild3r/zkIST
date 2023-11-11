@@ -1,0 +1,1 @@
+circom ./circuits/keccak32.circom --r1cs --sym --c --output ./build --prime bn128

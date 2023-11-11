@@ -1,0 +1,11 @@
+{
+  "name": "zkIST",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dcbuild3r/zkIST.git",
+  "author": "dcbuild3r, devloper",
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5"
+  }
+}
