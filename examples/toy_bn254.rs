@@ -25,7 +25,7 @@ fn run_test(circuit_filepath: String, witness_gen_filepath: String) {
 
     let mut private_inputs = Vec::new();
     for i in 0..iteration_count {
-        let mut private_input = HashMap::new();
+        let mut private_input: HashMap<String, serde_json::Value> = HashMap::new();
         private_input.insert("adder".to_string(), json!(i));
         private_inputs.push(private_input);
     }
